@@ -37,10 +37,10 @@ var server=http.createServer(app).listen(app.get('port'), function(){
 var util=require('util')
 var twitter=require('twitter')
 var twit=new twitter({
-	consumer_key:'ZC2mf56bQWVxlqEvgyzUeP8M9',
-	consumer_secret:'cAxuIQPdG4seBqA7j6vFCElZM5c1mx854lbt81wWePJTN6MxPW',
-	access_token_key: '2483064248-MoGX6dycSzoFHK7vbGkvkPZCscq4MiFOxD19CXx',
-	access_token_secret: 'i7rA9d2WGpLWuGX4UgGAQ6OoS5pgEPRtI8VkL8ejgI2sO'
+	consumer_key:'*****************',
+	consumer_secret:'**********************',
+	access_token_key: '*********************',
+	access_token_secret: '************************'
 });
 
 var io= require('socket.io').listen(server)
